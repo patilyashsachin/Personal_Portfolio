@@ -1,0 +1,135 @@
+/* App.css */
+body {
+  background: rgb(119,85,255);
+  background: linear-gradient(90deg, rgba(119,85,255,0.16299019607843135) 0%, rgba(255,196,72,0.1601890756302521) 100%);
+  margin: 0;
+  padding: 0;
+  font-family: 'Satoshi', sans-serif; 
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: #7755ff;
+}
+
+.btn.btn-warning:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+/* github button */
+.btn-warning {
+  background-color: #ffc107;
+  color: rgb(14, 13, 13);
+}
+
+.btn-warning a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-warning:hover {
+  background-color: #ffc107;
+}
+
+.btn-warning:hover a {
+  color: white;
+}
+
+
+/* Download button */
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* Font */
+
+#league-spartan-font{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+/* Education */
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #ffc107;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline-item {
+  padding: 20px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12.5px;
+  background-color: white;
+  border: 4px solid #ffc107;
+  top: 30px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-date {
+  padding: 10px;
+  background: #ffc107;
+  color: white;
+  position: absolute;
+  top: 20px;
+  width: 120px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: white;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+}
+
+.timeline-item:nth-child(even) .timeline-date {
+  left: -120px;
+}
+
+.timeline-item:nth-child(odd) .timeline-date {
+  right: -120px;
+}
