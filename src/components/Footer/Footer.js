@@ -15,15 +15,27 @@ function Footer() {
             </div>
           </div>
 
-          <div className='d-flex justify-content-center mt-4'>
-              <ul className='d-flex' style={{ listStyle: 'none', fontSize:'18px', fontWeight:'600' }}>
-                  <li className='me-5'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Home</a></li>
-                  <li className='me-5'><a href="#AboutMe" style={{ textDecoration: 'none', color: 'black' }}>About Me</a></li>
-                  <li className='me-5'><a href="#Skill" style={{ textDecoration: 'none', color: 'black' }}>Skill</a></li>
-                  <li className='me-5'><a href="#Certification" style={{ textDecoration: 'none', color: 'black' }}>Certification</a></li>
-                  <li className='me-5'><a href="#Projects" style={{ textDecoration: 'none', color: 'black' }}>Projects</a></li>
-              </ul>
-          </div>
+          <div className='d-flex flex-column align-items-center mt-4'>
+            <ul className='d-flex flex-wrap justify-content-center' style={{ listStyle: 'none', fontSize: '18px', fontWeight: '600', padding: 0 }}>
+                <li className='' style={{ margin: '10px' }}>
+                    <a href="" style={{ textDecoration: 'none', color: 'black' }}>Home</a>
+                </li>
+                <li className='' style={{ margin: '10px' }}>
+                    <a href="#AboutMe" style={{ textDecoration: 'none', color: 'black' }}>About Me</a>
+                </li>
+                <li className='' style={{ margin: '10px' }}>
+                    <a href="#Skill" style={{ textDecoration: 'none', color: 'black' }}>Skill</a>
+                </li>
+                <li className='' style={{ margin: '10px' }}>
+                    <a href="#Certification" style={{ textDecoration: 'none', color: 'black' }}>Certification</a>
+                </li>
+                <li className='' style={{ margin: '10px' }}>
+                    <a href="#Projects" style={{ textDecoration: 'none', color: 'black' }}>Projects</a>
+                </li>
+            </ul>
+        </div>
+
+
 
           <div className='d-flex justify-content-center mt-4'>
               <ul className='d-flex' style={{ listStyle: 'none'}}>

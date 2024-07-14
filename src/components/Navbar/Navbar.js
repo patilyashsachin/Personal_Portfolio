@@ -24,10 +24,10 @@ function Navbar() {
                 <a className="nav-link active me-5" href="#Projects">Projects</a>
                 </li>
                 <button type="button" className="btn btn-warning fw-bold">
-      <a href='https://github.com/' target="_blank" id='new'>
-        Github
-      </a>
-    </button>
+                <a href='https://github.com/' target="_blank" id='new'>
+                  Github
+                </a>
+                </button>
             </ul>
             </div>
         </div>

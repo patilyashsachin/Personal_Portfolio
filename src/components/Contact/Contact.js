@@ -45,7 +45,7 @@ function Contact() {
         )}
         <form ref={form} onSubmit={sendEmail}>
           <div className="row justify-content-center">
-            <div className="col-5">
+            <div className="col-10 col-md-7">
               <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
                 <input type="text" className="form-control" name="name" id="exampleFormControlInput1" placeholder="Full Name" />
@@ -60,7 +60,7 @@ function Contact() {
               </div>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
-                <textarea className="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea className="form-control" name="message" placeholder='Enter your message...' id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <button type="submit" className="btn text-light fw-bold px-3" style={{ backgroundColor: '#7755ff' }}>Send</button>
             </div>

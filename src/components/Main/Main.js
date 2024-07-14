@@ -2,10 +2,11 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar.js';
 import Hero from '../Hero/Hero.js'
 import AboutMe from '../AboutMe/AboutMe.js';
-import Certification from '../Certification.js/Certification.js';
+import Certification from '../Certification/Certification.js';
 import ProjectHome from '../Project/ProjectHome.js';
 import Footer from '../Footer/Footer.js'
 import Skills from '../Skill/Skills.js';
+import ContactHome from '../Contact/ContactHome.js';
 
 function Main() {
   return (
@@ -27,6 +28,9 @@ function Main() {
         </div>
         <div>
             <ProjectHome/>
+        </div>
+        <div>
+            <ContactHome/>
         </div>
         <div>
             <Footer/>

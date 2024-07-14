@@ -13,13 +13,17 @@ function Projects() {
             <div className="row border border-dark border-2 p-3" style={{borderRadius: '0px 20px 0px 20px'}}>
                 <div className="col-5">
                 <div style={{ overflow: 'auto', position: 'relative', height: 'auto', maxHeight: '300px', borderRadius: '0px 20px 0px 20px', border: '1px solid #ced4da' }}>
-                          <img src="images/CWH.png" alt="" className='img-fluid' style={{ width: '100%' }} />
+                          <img src={`${process.env.PUBLIC_URL}/images/CWH.png`} alt="" className='img-fluid' style={{ width: '100%' }} />
                       </div>
                 </div>
                 <div className="col-7">
                     <h3>Hello</h3>
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. In adipisci sapiente explicabo? Quisquam ut, omnis nesciunt id possimus eius natus ullam eum facere delectus voluptas autem ducimus! Sapiente, quasi corrupti!</h5>
-                    <button type="button" class="btn text-light fw-bold px-4" style={{backgroundColor:'#7755ff'}}>Visit</button>
+                    <a href="https://patilyashsachin.github.io/CodingMania/" target="_blank" rel="noopener noreferrer">
+                        <button type="button" className="btn text-light fw-bold px-4" style={{ backgroundColor: '#7755ff' }}>
+                        Visit
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -28,7 +32,7 @@ function Projects() {
             <div className="row border border-dark border-2 p-3" style={{borderRadius: '0px 20px 0px 20px'}}>
                 <div className="col-5">
                 <div style={{ overflow: 'auto', position: 'relative', height: 'auto', maxHeight: '300px', borderRadius: '0px 20px 0px 20px', border: '1px solid #ced4da' }}>
-                          <img src="images/complaint.png" alt="" className='img-fluid' style={{ width: '100%' }} />
+                          <img src={`${process.env.PUBLIC_URL}/images/Complaint.png`} alt="" className='img-fluid' style={{ width: '100%' }} />
                       </div>
                 </div>
                 <div className="col-7">
@@ -43,7 +47,7 @@ function Projects() {
             <div className="row border border-dark border-2 p-3" style={{borderRadius: '0px 20px 0px 20px'}}>
                 <div className="col-5">
                 <div style={{ overflow: 'auto', position: 'relative', height: 'auto', maxHeight: '300px', borderRadius: '0px 20px 0px 20px', border: '1px solid #ced4da' }}>
-                          <img src="images/Portfolio.png" alt="" className='img-fluid' style={{ width: '100%' }} />
+                          <img src={`${process.env.PUBLIC_URL}/images/Portfolio.png`} alt="" className='img-fluid' style={{ width: '100%' }} />
                       </div>
                 </div>
                 <div className="col-7">

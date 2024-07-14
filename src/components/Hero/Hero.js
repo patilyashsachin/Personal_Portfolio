@@ -14,12 +14,18 @@ function Hero() {
       <div className="container mb-5">
       <div className="row" style={{display:'flex'}}>
         <div className="col-12 col-lg-4 mt-4" style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-          <h4 className='fw-bolder fs-3 rounded-pill p-3 me-5' style={{background: 'rgb(119,85,255)',
+          <h4 className='fw-bolder fs-3 rounded-pill p-3 me-lg-5' style={{background: 'rgb(119,85,255)',
             background: 'linear-gradient(90deg, rgba(119,85,255,0.510329131652661) 42%, rgba(119,85,255,0.12377450980392157) 79%)'}}>BE in Information Technology</h4>
         </div>
         <div className="col-12 col-lg-4">
-          <img src="https://banpuenfestival.com/wp-content/uploads/2021/09/5.jpg" alt="" className='mt-4' style={{height:'55vh', width:'100%'}}/>
+          <img
+            src={`${process.env.PUBLIC_URL}/images/yash.jpg`}
+            alt=""
+            className="img-fluid mt-4"
+            style={{ maxHeight: '55vh', width: '100%' }}
+          />
         </div>
+
         <div className="col-12 col-lg-4 mt-4" style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
           <h4 className='fw-bolder fs-3 rounded-pill p-3' style={{background: 'rgb(119,85,255)',
             background: 'linear-gradient(90deg, rgba(119,85,255,0.510329131652661) 42%, rgba(119,85,255,0.12377450980392157) 79%)'}}>Enthusiastic Developer</h4>
