@@ -133,3 +133,7 @@ body {
 .timeline-item:nth-child(odd) .timeline-date {
   right: -120px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
