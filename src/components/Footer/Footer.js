@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, Link as ScrollLink} from 'react-scroll';
 
 function Footer() {
   return (
@@ -17,21 +18,57 @@ function Footer() {
 
           <div className='d-flex flex-column align-items-center mt-4'>
             <ul className='d-flex flex-wrap justify-content-center' style={{ listStyle: 'none', fontSize: '18px', fontWeight: '600', padding: 0 }}>
-                <li className='' style={{ margin: '10px' }}>
-                    <a href="" style={{ textDecoration: 'none', color: 'black' }}>Home</a>
-                </li>
-                <li className='' style={{ margin: '10px' }}>
-                    <a href="#AboutMe" style={{ textDecoration: 'none', color: 'black' }}>About Me</a>
-                </li>
-                <li className='' style={{ margin: '10px' }}>
-                    <a href="#Skill" style={{ textDecoration: 'none', color: 'black' }}>Skill</a>
-                </li>
-                <li className='' style={{ margin: '10px' }}>
-                    <a href="#Certification" style={{ textDecoration: 'none', color: 'black' }}>Certification</a>
-                </li>
-                <li className='' style={{ margin: '10px' }}>
-                    <a href="#Projects" style={{ textDecoration: 'none', color: 'black' }}>Projects</a>
-                </li>
+            <li className="nav-item">
+  <ScrollLink 
+    to="top" 
+    className="nav-link active me-5" 
+    smooth={true} 
+    duration={100} 
+    style={{ cursor: 'pointer' }}
+  >
+    Home
+  </ScrollLink>
+</li>
+                <li className="nav-item">
+                <Link 
+                  className="nav-link active me-5" 
+                  to="AboutMe" 
+                  smooth={true} 
+                  duration={100}
+                  style={{ cursor: 'pointer'}}>
+                  About Me
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link 
+                  className="nav-link active me-5" 
+                  to="Skill" 
+                  smooth={true} 
+                  duration={100}
+                  style={{ cursor: 'pointer' }}>
+                  Skills
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link 
+                  className="nav-link active me-5" 
+                  to="Certification" 
+                  smooth={true} 
+                  duration={100}
+                  style={{ cursor: 'pointer' }}>
+                  Certification
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link 
+                  className="nav-link active me-5" 
+                  to="Projects" 
+                  smooth={true} 
+                  duration={100}
+                  style={{ cursor: 'pointer' }}>
+                  Projects
+                </Link>
+              </li>
             </ul>
         </div>
 

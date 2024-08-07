@@ -14,7 +14,7 @@ function Main() {
         <div className='sticky-top'>
             <Navbar/>
         </div>
-        <div>
+        <div className='top'>
             <Hero/>
         </div>
         <div>
