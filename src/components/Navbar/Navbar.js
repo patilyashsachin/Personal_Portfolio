@@ -54,7 +54,7 @@ function Navbar() {
                 </Link>
               </li>
               <button type="button" className="btn btn-warning fw-bold">
-                <a href='https://github.com/' target="_blank" id='new'>
+                <a href='https://github.com/patilyashsachin' target="_blank" id='new'>
                   Github
                 </a>
               </button>
