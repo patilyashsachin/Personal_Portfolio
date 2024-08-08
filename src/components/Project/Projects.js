@@ -62,6 +62,48 @@ function Projects() {
                 </div>
             </div>
         </div>
+
+        <div className='my-5'>
+  <div className="row border border-dark border-2 p-3" style={{ borderRadius: '0px 20px 0px 20px' }}>
+    <div className="col-5">
+      <div
+        style={{
+          position: 'relative',
+          height: 'auto',
+          maxHeight: '300px',
+          borderRadius: '0px 20px 0px 20px',
+          border: '1px solid #ced4da',
+          overflow: 'hidden' // Ensure no overflow
+        }}
+      >
+        <video
+          src={`${process.env.PUBLIC_URL}/images/Video.mp4`} // Adjust the path and filename
+          alt=""
+          className='img-fluid'
+          style={{ 
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover' // Cover the container while maintaining aspect ratio
+          }}
+          controls
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <div className="col-7">
+      <h3>Chrome Extension for Eye Relaxation</h3>
+      <h5>
+        Developed EyeRelax, a Chrome Extension that provides regular reminders and eye exercises.
+      </h5>
+      <h5>HTML, CSS, JS, Chrome Extensions API.</h5>
+      {/* <button type="button" class="btn text-light fw-bold px-4" style={{backgroundColor:'#7755ff'}}>Visit</button> */}
+    </div>
+  </div>
+</div>
+
+
+
        </div>
     </div>
   )
