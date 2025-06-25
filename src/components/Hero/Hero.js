@@ -6,7 +6,7 @@ function Hero() {
     <div>
       <div className="container text-center">
       <h1 className="fw-bolder" style={{ marginTop: '30px' }}>I'M&nbsp;<span className="rounded-pill d-inline-block" style={{ backgroundColor: '#7755ff', padding: '0.5em 1em', color: 'white' }}>Yash Sachin Patil</span></h1>
-      <h2 className='mt-4 fw-bold fs-2' id='league-spartan-font'>Full Stack & Java Developer</h2>
+      <h2 className='mt-4 fw-bold fs-2' id='league-spartan-font'>MERN Full Stack Developer</h2>
       <div className='mt-4'>
         <Link to='/Contact'><button type="button" className="btn btn-warning fw-bold me-4 px-4">Contact Me</button></Link>
         <Link to='/Projects'><button type="button" className="btn btn-light fw-bold btn-outline-secondary px-4">Projects</button></Link>
